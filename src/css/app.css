@@ -1,24 +1,18 @@
 @font-face {
   font-family: "Graphit";
-  src: local("Custom Font"), url("Graphit-Regular.754f5bb6.eot"); /* IE9 Compat Modes */
-  src: url("Graphit-Regular.34a330a2.eot") format("embedded-opentype"),
-     url("Graphit-Regular.fdd0f4d4.woff2") format("woff2"),
-     url("Graphit-Regular.a8e2c443.woff")
+  src: local("Custom Font"), url("../fonts/Graphit-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Graphit-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Graphit-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Graphit-Regular.woff")
       format("woff"),
-     url("Graphit-Regular.0bb20f23.ttf")
+    /* Pretty Modern Browsers */ url("../fonts/Graphit-Regular.ttf")
       format("truetype"),
-     url("Graphit-Regular.df2320de.svg")
+    /* Safari, Android, iOS */ url("../fonts/Graphit-Regular.svg#svgFontName")
       format("svg"); /* Legacy iOS */
   font-weight: 400;
   font-style: normal;
   font-display: swap;
   unicode-range: U+000-5FF;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
 }
 
 :root {
@@ -41,7 +35,6 @@ body {
 }
 
 /* Page Loader */
-
 .js .is-loading::before,
 .js .is-loading::after {
   content: "";
@@ -410,7 +403,6 @@ main {
 }
 
 /*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
-
 html.has-scroll-smooth {
   overflow: hidden;
 }
@@ -440,11 +432,9 @@ html.has-scroll-dragging {
   transition: transform 0.3s, opacity 0.3s;
   opacity: 0;
 }
-
 .c-scrollbar:hover {
   transform: scaleX(1.45);
 }
-
 .c-scrollbar:hover,
 .has-scroll-scrolling .c-scrollbar,
 .has-scroll-dragging .c-scrollbar {
@@ -463,7 +453,6 @@ html.has-scroll-dragging {
   cursor: -webkit-grab;
   cursor: grab;
 }
-
 .has-scroll-dragging .c-scrollbar_thumb {
   cursor: -webkit-grabbing;
   cursor: grabbing;
@@ -520,5 +509,3 @@ html.has-scroll-dragging {
     --tiles-height: 240px;
   }
 }
-
-/*# sourceMappingURL=index.a62ad06b.css.map */

@@ -140,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"5tOvd":[function(require,module,exports) {
+})({"483aK":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "062e9a7565ca912a5f7d6b832142d36c"; // @flow
+module.bundle.HMR_BUNDLE_ID = "f708cf535930f2c26076f484fd92a775"; // @flow
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE */ /*::
 import type {
   HMRAsset,
@@ -380,17 +380,18 @@ function hmrAcceptRun(bundle/*: ParcelRequire */ , id/*: string */ ) {
     acceptedAssets[id] = true;
 }
 
-},{}],"3L8AI":[function(require,module,exports) {
+},{}],"XPJbz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _locomotiveScroll = require("locomotive-scroll");
 var _locomotiveScrollDefault = parcelHelpers.interopDefault(_locomotiveScroll);
-const imagesLoaded = require('imagesloaded');
-const backtopButton = document.querySelector('.backtop');
-const header = document.querySelector('.s-header');
+var _imagesloaded = require("imagesloaded");
+var _imagesloadedDefault = parcelHelpers.interopDefault(_imagesloaded);
+const backtopButton = document.querySelector(".backtop");
+const header = document.querySelector(".s-header");
 // Preload images
-const preloadImages = (selector = 'img')=>{
+const preloadImages = (selector = "img")=>{
     return new Promise((resolve)=>{
-        imagesLoaded(document.querySelectorAll(selector), {
+        _imagesloadedDefault.default(document.querySelectorAll(selector), {
             background: true
         }, resolve);
     });
@@ -408,21 +409,21 @@ const preloadFonts = (id)=>{
 };
 // Preload  images and fonts
 Promise.all([
-    preloadImages('.tiles-line-img'),
-    preloadFonts('ftf6jal')
+    preloadImages(".tiles-line-img"),
+    preloadFonts("ftf6jal")
 ]).then(()=>{
     // Remove loader (loading class)
-    document.body.classList.remove('is-loading');
+    document.body.classList.remove("is-loading");
     // Initialize the Locomotive scroll
     const scroll = new _locomotiveScrollDefault.default({
-        el: document.querySelector('[data-scroll-container]'),
+        el: document.querySelector("[data-scroll-container]"),
         smooth: true
     });
-    backtopButton.addEventListener('click', ()=>scroll.scrollTo(header)
+    backtopButton.addEventListener("click", ()=>scroll.scrollTo(header)
     );
 });
 
-},{"locomotive-scroll":"3bzsC","@parcel/transformer-js/src/esmodule-helpers.js":"367CR","imagesloaded":"v9R4A"}],"3bzsC":[function(require,module,exports) {
+},{"locomotive-scroll":"3bzsC","imagesloaded":"v9R4A","@parcel/transformer-js/src/esmodule-helpers.js":"367CR"}],"3bzsC":[function(require,module,exports) {
 var global = arguments[3];
 (function(global1, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? define(factory) : (global1 = typeof globalThis !== 'undefined' ? globalThis : global1 || self, global1.LocomotiveScroll = factory());
@@ -2780,38 +2781,6 @@ var global = arguments[3];
     return Smooth;
 });
 
-},{}],"367CR":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule') return;
-        // Skip duplicate re-exports when they have the same value.
-        if (key in dest && dest[key] === source[key]) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
 },{}],"v9R4A":[function(require,module,exports) {
 /*!
  * imagesLoaded v4.1.4
@@ -3174,6 +3143,38 @@ function factory(window, EvEmitter) {
     return EvEmitter;
 });
 
-},{}]},["5tOvd","3L8AI"], "3L8AI", "parcelRequirecfb3")
+},{}],"367CR":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule') return;
+        // Skip duplicate re-exports when they have the same value.
+        if (key in dest && dest[key] === source[key]) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
-//# sourceMappingURL=index.2142d36c.js.map
+},{}]},["483aK","XPJbz"], "XPJbz", "parcelRequirecfb3")
+
+//# sourceMappingURL=index.fd92a775.js.map
