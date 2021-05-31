@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Image Tiles Scroll Animation | Demo 3 | Codrops</title>
+		<meta name="description" content="Scroll animations for image grids powered by Locomotive Scroll">
+		<meta name="keywords" content="locomotive scroll, scroll animation, website, javascript, demo">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="341a7ca65c476e9195f17bbb4d73e830">
+		<link rel="stylesheet" href="cdbce17870e13aa7697162edab7ac56d">
+		<link rel="stylesheet" type="text/css" href="f54802ad23422b2dd67f74c57146c65d">
+		<script src="65e0bfa3b02486d827e8f463dcec4bf3"></script>
+		<script data-parcel-key="0aef66a49fc93d9e6d48dac25e5629b6">document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-3 loading">
+		<main id="main" data-scroll-container="">
+			<section id="header" class="content content--auto">
+				<div class="frame">
+					<div class="frame__title-wrap">
+						<h1 class="frame__title">Image Tiles Scroll Animation with <a href="c30c518bdcfda8333dd773aca5db817b">Locomotive Scroll</a></h1>
+					</div>
+					<div class="frame__links">
+						<a href="a7daffa8f07d25c1c845eb1c409a4a73">Previous demo</a>
+						<a href="6e48be06555d1a9bf5c57ce0d3c9a830">Article</a>
+						<a href="e0825376f266f8b98dc4ccc1096da097">GitHub</a>
+					</div>
+					<div class="frame__demos">
+						<a href="0b494a7d9fcacb0e85709034f764e2a9" class="frame__demo">Demo 1</a>
+						<a href="c33093f4ccc7245bb04cf75e00e0fef2" class="frame__demo">Demo 2</a>
+						<a href="17841eb4b7bfd40f3c8dcf456cd5f284" class="frame__demo frame__demo--current">Demo 3</a>
+					</div>
+				</div>
+			</section>
+			<section class="tiles tiles--perspective tiles--darker">
+				<div class="tiles__wrap">
+					<div class="tiles__line" data-scroll="" data-scroll-speed="2" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="faa3ff12cac82c094d941718f635c800"></div>
+						<div class="tiles__line-img" style="2ec6f7eb2a1b260dbdc4283a998d4bcb"></div>
+						<div class="tiles__line-img" style="09ee2ad95bffe2bee0e4252ad398e356"></div>
+						<div class="tiles__line-img" style="8ab24e2be06611b4462a30141316f04b"></div>
+						<div class="tiles__line-img" style="2eed0daeef64ea4f197a75716236572a"></div>
+						<div class="tiles__line-img" style="b9b60c1e02b7ad4b5b820f6c23e4ac63"></div>
+						<div class="tiles__line-img" style="be89a8150ead6a7013a14236df9c887b"></div>
+						<div class="tiles__line-img" style="3c126087d8a11f67e4a5813f71b36610"></div>
+					</div>
+					<div class="tiles__line" data-scroll="" data-scroll-speed="-2" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="622fb4f2949b121a5dda67e066536339"></div>
+						<div class="tiles__line-img" style="f2acf54522216f13fdaff7ea0e12e507"></div>
+						<div class="tiles__line-img" style="00a5c94cd3cc259535afed2167d45403"></div>
+						<div class="tiles__line-img" style="d8fedd8cab660c62b7e5cb3d4b4e07ba"></div>
+						<div class="tiles__line-img" style="b3f0197eb8c77a9ccfaca4e244d86eb6"></div>
+						<div class="tiles__line-img" style="94624605257d127cf1b99c1583c412a2"></div>
+						<div class="tiles__line-img" style="3ec85a927138b99a132e4a45b90930da"></div>
+						<div class="tiles__line-img" style="f1c100a9c5e2d4763f601afbf5456f28"></div>
+					</div>
+					<div class="tiles__line" data-scroll="" data-scroll-speed="2" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="280a044970a36b3a03270f34475169c7"></div>
+						<div class="tiles__line-img" style="f7b2d2d22eebe503697c1e898c48804a"></div>
+						<div class="tiles__line-img" style="99cedd7dcb020d096319ff305b09f058"></div>
+						<div class="tiles__line-img" style="449808a4007e220be55f2ada311d6252"></div>
+						<div class="tiles__line-img" style="6709fbcccdc5d504a9154f7c612d604d"></div>
+						<div class="tiles__line-img" style="8a301ed4c432293d8e5ed186840fb37f"></div>
+						<div class="tiles__line-img" style="6b25bdf830030befec3a656a12fd1c55"></div>
+						<div class="tiles__line-img" style="6c0a0c6e5a8937a3c7f31184adaaf257"></div>
+					</div>
+					<div class="tiles__line" data-scroll="" data-scroll-speed="-2" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="5b8fbbefdac19cf416a53fff1d127f03"></div>
+						<div class="tiles__line-img" style="ccf66bf0b7681b20e159809bda8d42a6"></div>
+						<div class="tiles__line-img" style="21ae786dd4dd2aa1e1eb501978b57d32"></div>
+						<div class="tiles__line-img" style="ad30d2708410cd92088075f523860778"></div>
+						<div class="tiles__line-img" style="c3d92a6c7f1577ad8c2f2d822ee3c7dc"></div>
+						<div class="tiles__line-img" style="a1563ef71da3cff56018734eede5eeaa"></div>
+						<div class="tiles__line-img" style="1bba316fb41ffcbc93db80637c1e0160"></div>
+						<div class="tiles__line-img" style="1b4180e29979c85f7ce6a5155844a5b5"></div>
+					</div>
+				</div>
+				<h2 class="tiles__title tiles__title--intro" data-scroll="" data-scroll-speed="4">Neurotic<br>culture</h2>
+			</section>
+			<section class="content">
+				<p class="content__text" data-scroll="" data-scroll-speed="2">We have the money, the power, the medical understanding, the scientific know-how, the love and the community to produce a kind of human paradise. But we are led by the least among us – the least intelligent, the least noble, the least visionary. We are led by the least among us and we do not fight back against the dehumanizing values that are handed down as control icons.</p>
+			</section>
+			<section class="tiles tiles--oneline" id="grid2">
+				<div class="tiles__wrap">
+					<div class="tiles__line" data-scroll="" data-scroll-speed="2" data-scroll-target="#grid2" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="61cdb4e10a30b0afb1defdaace9b3a65"></div>
+						<div class="tiles__line-img" style="5ac95b673c029f8af1010e0de57e41a8"></div>
+						<div class="tiles__line-img" style="2a2ba90d56cf834194a2c650689aa6a9"></div>
+						<div class="tiles__line-img" style="bd320f1a7ab7b177bc85e18b9094f00d"></div>
+					</div>
+				</div>
+				<h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll="" data-scroll-speed="2">Civilization</h2>
+			</section>
+			<section class="tiles tiles--oneline" id="grid3">
+				<div class="tiles__wrap">
+					<div class="tiles__line" data-scroll="" data-scroll-speed="-2" data-scroll-target="#grid3" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="35a775b9de40a9d8e83e3c2084d8657d"></div>
+						<div class="tiles__line-img" style="2a850c1b2d56f784dfe33aed13083ab3"></div>
+						<div class="tiles__line-img" style="843f8957fd40813ca4fbce62e36c76ab"></div>
+						<div class="tiles__line-img" style="675456f66c505f7035e06c8d58953793"></div>
+					</div>
+				</div>
+				<h2 class="tiles__title tiles__title--left tiles__title--full tiles__title--alt" data-scroll="" data-scroll-speed="2">Empowerment</h2>
+			</section>
+			<section class="tiles tiles--oneline" id="grid4">
+				<div class="tiles__wrap">
+					<div class="tiles__line" data-scroll="" data-scroll-speed="2" data-scroll-target="#grid4" data-scroll-direction="horizontal">
+						<div class="tiles__line-img" style="0e8eb0ee77211d4c736d27fa05b14bd4"></div>
+						<div class="tiles__line-img" style="f305ca330ffa063ee408ac1ca91ff90a"></div>
+						<div class="tiles__line-img" style="bd4f3a63edefce2ad02302d61e5de8a6"></div>
+						<div class="tiles__line-img" style="ff08f84f3ad85eb1eff305bac1cc9f78"></div>
+					</div>
+				</div>
+				<h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll="" data-scroll-speed="2">Apocalypse</h2>
+			</section>
+			<section class="content">
+				<p class="content__text content__text--wide" data-scroll="" data-scroll-speed="1">We have to create culture, don’t watch TV, don’t read magazines, don’t even listen to NPR. Create your own roadshow. The nexus of space and time where you are now is the most immediate sector of your universe, and if you’re worrying about Michael Jackson or Bill Clinton or somebody else, then you are <em>disempowered</em>, you’re giving it all away to icons, icons which are maintained by an electronic media so that you want to dress like X or have lips like Y. </p>
+			</section>
+			<section class="content content--feature">
+				<p class="content__breakout content__breakout--big" data-scroll="" data-scroll-speed="20" data-scroll-direction="horizontal">Culture is not your friend</p>
+				<p class="content__breakout content__breakout--medium" data-scroll="" data-scroll-speed="5" data-scroll-direction="horizontal">express ourselves through creative activity</p>
+			</section>
+			<section class="content">
+				<p class="content__text content__text--right content__text--wide" data-scroll="" data-scroll-speed="1">This is shit-brained, this kind of thinking. That is all cultural diversion, and what is real is you and your friends and your associations, your highs, your orgasms, your hopes, your plans, your fears. And we are told ‘no’, we’re unimportant, we’re peripheral. ‘Get a degree, get a job, get a this, get a that.’ And then you’re a player, you don’t want to even play in that game. You want to reclaim your mind and get it out of the hands of the cultural engineers who want to turn you into a half-baked moron consuming all this trash that’s being manufactured out of the bones of a dying world.</p>
+			</section>
+			<section class="tiles tiles--fixed">
+				<div class="tiles__wrap">
+					<div class="tiles__line">
+						<div class="tiles__line-img" style="d24b40d21f4444c84c9349797de5124b" data-scroll="" data-scroll-speed="3" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="8dd1056c1f64d2e5caba60277e6473ae" data-scroll="" data-scroll-speed="2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="19cf4db0c03f74c9dedf57e0dfe43865" data-scroll="" data-scroll-speed="1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="2c22bed36b8811e44924bbe07c863c41" data-scroll="" data-scroll-speed="-1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="0e3bb208ab92040d69c30b0b49753d9f" data-scroll="" data-scroll-speed="-2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="5b9bbe8c240a69cfd7a39f3759946fcc" data-scroll="" data-scroll-speed="-3" data-scroll-direction="horizontal"></div>
+					</div>
+					<div class="tiles__line">
+						<div class="tiles__line-img" style="e33e078cba467088bfcaac5450d45319" data-scroll="" data-scroll-speed="3" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="a08033f2b69122a637ecb1d6383c20ca" data-scroll="" data-scroll-speed="2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="303544cb8659ea4d354ec6d3c053699e" data-scroll="" data-scroll-speed="1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="9aa62928e0cd4b838d3620d5c39c9c2c" data-scroll="" data-scroll-speed="-1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="6399825813cd1f448bddfb774fdfcdb5" data-scroll="" data-scroll-speed="-2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="5b5c5482284f0251ddf6f5eee2be5b15" data-scroll="" data-scroll-speed="-3" data-scroll-direction="horizontal"></div>
+					</div>
+					<div class="tiles__line">
+						<div class="tiles__line-img" style="8e13ab1872025f08d987c2f8561a76c3" data-scroll="" data-scroll-speed="3" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="b6a34428db558cf966a7b7cbd0074437" data-scroll="" data-scroll-speed="2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="2432d42e2b62e9606c3cb4ab2e0d04f7" data-scroll="" data-scroll-speed="1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="505e4241a5794ff1fb58568afd176679" data-scroll="" data-scroll-speed="-1" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="e63b8543d092b7b9681d4ae2f3c18213" data-scroll="" data-scroll-speed="-2" data-scroll-direction="horizontal"></div>
+						<div class="tiles__line-img" style="2ff2ceff77058e442c864d56fa53a353" data-scroll="" data-scroll-speed="-3" data-scroll-direction="horizontal"></div>
+					</div>
+				</div>
+			</section>
+			<section class="content">
+				<a class="backtop" data-scroll="" data-scroll-speed="4">Back to the top</a>
+				<div class="frame frame--footer">
+					<a href="11e6af0703eaebdf8cb216f6c68224cf" class="frame__author">@codrops</a>
+					<div class="frame__demos">
+						<a href="0b494a7d9fcacb0e85709034f764e2a9" class="frame__demo">Demo 1</a>
+						<a href="c33093f4ccc7245bb04cf75e00e0fef2" class="frame__demo">Demo 2</a>
+						<a href="17841eb4b7bfd40f3c8dcf456cd5f284" class="frame__demo frame__demo--current">Demo 3</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="06dfe9f8db92a79f21cf80f953a0a070"></script>
+	</body>
+</html>

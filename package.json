@@ -1,0 +1,14 @@
+{
+  "name": "rita-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html"
+  },
+  "dependencies": {
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.1.1",
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
