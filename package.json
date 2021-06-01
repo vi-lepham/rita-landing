@@ -1,7 +1,6 @@
 {
   "name": "rita-landing",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html --no-cache",
     "start": "parcel serve src/index.html --no-cache"

@@ -386,6 +386,8 @@ var _locomotiveScroll = require("locomotive-scroll");
 var _locomotiveScrollDefault = parcelHelpers.interopDefault(_locomotiveScroll);
 var _imagesloaded = require("imagesloaded");
 var _imagesloadedDefault = parcelHelpers.interopDefault(_imagesloaded);
+const select = (e)=>document.querySelector(e)
+;
 const backtopButton = document.querySelector(".backtop");
 const header = document.querySelector(".s-header");
 // Preload images
@@ -416,7 +418,7 @@ Promise.all([
     document.body.classList.remove("is-loading");
     // Initialize the Locomotive scroll
     const scroll = new _locomotiveScrollDefault.default({
-        el: document.querySelector("[data-scroll-container]"),
+        el: select("[data-scroll-container]"),
         smooth: true
     });
     backtopButton.addEventListener("click", ()=>scroll.scrollTo(header)

@@ -1,6 +1,8 @@
 import LocomotiveScroll from "locomotive-scroll"
 import imagesLoaded from "imagesloaded"
 
+const select = e => document.querySelector(e);
+
 const backtopButton = document.querySelector(".backtop")
 const header = document.querySelector(".s-header")
 
@@ -34,7 +36,7 @@ Promise.all([preloadImages(".tiles-line-img"), preloadFonts("ftf6jal")]).then(
 
     // Initialize the Locomotive scroll
     const scroll = new LocomotiveScroll({
-      el: document.querySelector("[data-scroll-container]"),
+      el: select("[data-scroll-container]"),
       smooth: true,
     })
 
