@@ -182,6 +182,7 @@ main {
   height: var(--tiles-height);
   position: relative;
   overflow: hidden;
+  margin-top: 10vw;
 }
 
 .tiles-columns-rotated {
